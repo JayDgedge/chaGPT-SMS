@@ -3,7 +3,7 @@ import os
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 
-openai.api_key = os.getenv("chave")
+openai.api_key = os.getenv("API_OPENAI_KEY")
 
 app = Flask(__name__)
 
